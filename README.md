@@ -9,3 +9,13 @@
 django-admin startproject python_subscription_management
 python manage.py startapp chargebee
 ```
+
+### Adding the paths needed
+- Index page
+- Subscribe Now page
+- Customer Portal page
+
+## Useful commands
+```
+python manage.py runserver
+```

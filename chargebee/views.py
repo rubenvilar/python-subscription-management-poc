@@ -1,3 +1,13 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+
+def index(request):
+    return HttpResponse("Here you can show the two options bellow.")
+
+
+def subscribe_now(request):
+    return HttpResponse("Subscribe Now")
+
+
+def customer_portal(request):
+    return HttpResponse("Customer Portal")
