@@ -3,6 +3,8 @@
     <head>
         <title>Subscription Management - Chargebee - Customer Portal</title>
         <meta charset="utf-8">
+        {# TODO REPLACE SITE WITH ENVIRONMENT VARIABLE #}
+        <script src = "https://js.chargebee.com/v2/chargebee.js"  data-cb-site = "rubenvilar-test" > </script>
     </head>
     <body>
         <header>
@@ -13,7 +15,9 @@
             </nav>
         </header>
         <main>
-            <section></section>
+            <section>
+                <a href="javascript:void(0)" data-cb-type="portal" >Open Customer Portal</a>
+            </section>
         </main>
         <footer></footer>
     </body>
