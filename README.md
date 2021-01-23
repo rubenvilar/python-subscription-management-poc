@@ -18,4 +18,6 @@ python manage.py startapp chargebee
 ## Useful commands
 ```
 python manage.py runserver
+python manage.py migrate
+python manage.py createsuperuser
 ```
