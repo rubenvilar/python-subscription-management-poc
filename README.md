@@ -1,4 +1,4 @@
-# Subscription Management with Python
+# Subscription Management with Python (POC)
 
 ## Getting Started with Chargebee
 - Install Python and Django https://docs.djangoproject.com/en/3.1/intro/tutorial01/
